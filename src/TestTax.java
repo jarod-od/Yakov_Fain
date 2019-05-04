@@ -6,6 +6,6 @@ public class TestTax {
         t.state = "NJ";
 
         double yourTax = t.calcTax();
-        System.out.println("You tax is " + yourTax);
+        System.out.println("You tax is " + yourTax);// Напечать вывело 4 тыс, т.к. 50 тыс => дохода и пошло на 8%
     }
 }

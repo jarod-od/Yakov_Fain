@@ -1,3 +1,5 @@
+package com.jarod.fain.pet;
+
 public class Pet {
     int age;
     float weight;

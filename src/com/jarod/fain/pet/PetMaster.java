@@ -1,3 +1,5 @@
+package com.jarod.fain.pet;
+
 public class PetMaster {
     public static void main(String[] args) {
     String petReaction;

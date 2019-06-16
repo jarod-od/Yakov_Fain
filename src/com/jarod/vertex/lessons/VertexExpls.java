@@ -1,3 +1,5 @@
+package com.jarod.vertex.lessons;
+
 public class VertexExpls {
 
 	public static void main (String[] args) {

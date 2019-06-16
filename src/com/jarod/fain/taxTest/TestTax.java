@@ -1,6 +1,8 @@
+package com.jarod.fain.taxTest;
+
 public class TestTax {
     public static void main(String[] args) {
-//        Tax t = new Tax();// закоментили строчку, т.к. тестим класс NJTax, что бы увидеть расчет.
+//        com.jarod.fain.taxTest.Tax t = new com.jarod.fain.taxTest.Tax();// закоментили строчку, т.к. тестим класс com.jarod.fain.taxTest.NJTax, что бы увидеть расчет.
         NJTax t = new NJTax();
         t.grossIncome = 50000;
         t.numberOfDependens = 2;

@@ -1,3 +1,5 @@
+package com.jarod.fain.taxTest;
+
 public class Tax {
     int numberOfDependens; // кол-во иждивенцев
     double grossIncome;// Доход годовой

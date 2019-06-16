@@ -1,3 +1,5 @@
+package com.jarod.fain;
+
 public class VideoGame {
     int color; // цвет
     String  name ;

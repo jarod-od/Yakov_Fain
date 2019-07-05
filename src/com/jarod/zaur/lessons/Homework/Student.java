@@ -12,6 +12,13 @@ public class Student {
     double midleRangeHistory;
 }
     class StudentTest {
+
+    double midleRange(Student range){
+        double midrange = (range.midleRangeMath + range.midleRangeGeography + range.midleRangeHistory)/3;
+        System.out.println ("Midlerange " + range.name + " " + range.surname + " : " + midrange);
+        return midrange;
+    }
+
     public static void main (String[] args){
         Student first = new Student();
         first.id = 1;
@@ -40,8 +47,15 @@ public class Student {
         third.midleRangeGeography = 8.0;
         third.midleRangeHistory = 9.5;
 
-        System.out.println("Средняя оценка студента " + first.name + " " + first.surname + " = " + (first.midleRangeMath + first.midleRangeGeography + first.midleRangeHistory)/3);
+        StudentTest men = new StudentTest();
+        men.midleRange(first);
+        men.midleRange(second);
+        men.midleRange(third);
+
+
+       /* System.out.println("Средняя оценка студента " + first.name + " " + first.surname + " = " + (first.midleRangeMath + first.midleRangeGeography + first.midleRangeHistory)/3);
         System.out.println("Средняя оценка студента " + second.name + " " + second.surname + " = " + (second.midleRangeMath + second.midleRangeGeography + second.midleRangeHistory)/3);
         System.out.println("Средняя оценка студента " + third.name + " " +third.surname + " = " + (third.midleRangeMath + third.midleRangeGeography + third.midleRangeHistory)/3);
+        */
     }
 }
